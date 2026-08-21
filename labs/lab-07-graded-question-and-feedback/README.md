@@ -1,7 +1,7 @@
 # Lab 07 — Build a Graded Question with Feedback
 
 **Course:** Mastering Articulate Storyline 360 for e-Learning Content Creation (`TGS-2024042308`)
-**Version:** v9 · 21 August 2026
+**Version:** v10 · 22 August 2026
 
 ## Scenario
 
@@ -19,9 +19,9 @@ Add a graded question with plausible distractors, feedback, scoring and accessib
 ## Detailed procedure
 
 1. Create `Lab-07-YourName.story` from `06_01_BEGIN.story`.
-2. Define the learning objective and write one decision-focused question with one defensible correct answer.
+2. Define the learning objective and write one realistic decision-focused question with one defensible correct answer.
 3. Insert the appropriate graded question type and configure prompt, choices and correct response.
-4. Write concise feedback that explains why each response is correct or incorrect.
+4. Write concise feedback that explains the contextual consequence of each response, not merely whether it is correct.
 5. Set attempts, score, required status and navigation to match the storyboard.
 6. Format response states with more than colour alone and verify focus/reading order.
 7. Preview correct, incorrect, incomplete, retry and revisit paths.
@@ -34,9 +34,9 @@ Retain the completed .story file, question specification, trigger/feedback scree
 
 ## Acceptance criteria
 
-- [ ] Question and feedback align to the taught criterion.
+- [ ] The realistic decision and consequence-based feedback align to the taught criterion.
 - [ ] Scoring and attempts behave as specified.
-- [ ] All response states are perceivable and keyboard operable.
+- [ ] All response states are perceivable and keyboard/touch operable.
 - [ ] Correct, incorrect, incomplete, retry and revisit tests pass.
 
 ## Reflection prompts

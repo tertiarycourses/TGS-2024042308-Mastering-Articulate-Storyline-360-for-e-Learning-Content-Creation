@@ -1,7 +1,7 @@
 # Mastering Articulate Storyline 360 for e-Learning Content Creation — Labs
 
 **Course code:** TGS-2024042308
-**Version:** v9 · 21 August 2026
+**Version:** v10 · 22 August 2026
 
 Each lab is self-contained and includes an original BEGIN .story file, a completed END .story reference, a detailed guide and a preview. Work from a new copy of BEGIN; never overwrite the supplied baseline or END reference.
 

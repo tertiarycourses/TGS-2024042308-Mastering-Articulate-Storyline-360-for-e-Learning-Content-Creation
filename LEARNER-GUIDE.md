@@ -1,7 +1,7 @@
 # Mastering Articulate Storyline 360 for e-Learning Content Creation — Learner Guide
 
 **Course code:** TGS-2024042308
-**Version:** v9 · 21 August 2026
+**Version:** v10 · 22 August 2026
 
 ## Purpose
 
@@ -34,17 +34,18 @@ This guide contains the detailed Storyline 360 procedures, evidence requirements
 
 ## Core professional workflow
 
-1. Clarify the business objective, learner audience, device, delivery channel and constraints.
+1. Verify the performance gap, required learner behaviour, audience, device, delivery channel and success measure.
 2. Map screens, narration, media, interactions, branches, accessibility and evidence in the storyboard.
-3. Work locally from a versioned copy of the supplied BEGIN .story file and preserve the END reference.
-4. Use reusable themes, layouts, named objects, layers, states, triggers and variables deliberately.
-5. Check rights, provenance, alternative text, focus order, captions and keyboard operation as content is added.
-6. Preview the slide, scene and project; test correct, incorrect, boundary, revisit and resume paths.
-7. Publish only to the approved review/test target, verify runtime/tracking and retain the source plus evidence.
+3. Prototype the riskiest screens and interactions; record review decisions before full production.
+4. Work locally from a versioned copy of the supplied BEGIN .story file and preserve the END reference.
+5. Use reusable themes, layouts, named objects, layers, states, triggers and variables deliberately.
+6. Check visual grammar, rights, provenance, alternative text, focus order, captions, media equivalents and keyboard operation as content is added.
+7. Preview the slide, scene and project; test correct, incorrect, boundary, revisit, resume and representative device paths.
+8. Publish only to the approved review/test target, verify runtime/tracking and retain the source plus evidence.
 
 ## Topic 1 — Get Started on Articulate Storyline 360
 
-Story purpose · storyboard · project model · interface · scenes · slides · layers · quizzes · media libraries
+Performance gap · story purpose · storyboard · prototype · project model · interface · scenes · slides · layers · quizzes · media libraries
 
 **Alignment:** LO1 · A1 · A2 · K1 · K3
 
@@ -60,6 +61,18 @@ A digital story combines a purposeful narrative, evidence, media and learner age
 
 **Quality evidence:** The narrative can be traced from business objective to learner action and measurable outcome.
 
+### Performance Gap Before Course Design
+
+Course design begins by separating a knowledge or skill gap from process, motivation, tooling or policy problems, then defining the observable performance and measurement strategy.
+
+**Best used for:** Deciding whether e-learning is an appropriate response and translating a business need into learner actions.
+
+**Key controls:** Stakeholders; current performance; desired performance; root cause; knowledge/skill evidence; objective; success metric.
+
+**Watch for:** Starting with a feature list, accepting one stakeholder's opinion as the whole diagnosis or promising change that training cannot cause.
+
+**Quality evidence:** The brief states the verified gap, the required learner behaviour and how success will be measured.
+
 ### Storyboard Architecture
 
 A storyboard makes the course visible before production by mapping screens, narration, media, interactions, transitions, branching and evidence.
@@ -71,6 +84,18 @@ A storyboard makes the course visible before production by mapping screens, narr
 **Watch for:** Treating the storyboard as a static script or failing to show conditional paths and feedback.
 
 **Quality evidence:** Every screen has a purpose, every branch reconnects or terminates deliberately, and every asset has an owner.
+
+### Prototype-to-Release Feedback Loop
+
+A small digital prototype makes navigation, visual treatment and interaction tangible before full production; alpha, beta and final releases then narrow the scope of change.
+
+**Best used for:** Surfacing hidden requirements, validating risky interactions and controlling stakeholder feedback.
+
+**Key controls:** Concept approval; prototype scope; review questions; alpha completeness; beta target test; defect threshold; final sign-off.
+
+**Watch for:** Building the whole course before testing the live design, mixing preference feedback with defects or making major structural changes during beta.
+
+**Quality evidence:** Each review stage has a defined purpose, owner, decision record and traceable source version.
 
 ### Audience, Objective and Content Promise
 
@@ -182,11 +207,12 @@ Question banks randomise reusable questions; Media Library centralises project a
 2. Open the working copy from a local Windows drive and review all three slides in Story View and Slide View.
 3. Record the current theme fonts, theme colours, slide size, layouts and player before making changes.
 4. Use Replace Picture or the Media Library to substitute the relevant camping visuals without changing object geometry.
-5. Apply a coherent font and colour theme that supports projection contrast and the course audience.
+5. Apply a coherent font and colour theme; use repetition, alignment and balance to establish a predictable visual system.
 6. Check every replaced picture for crop, aspect ratio, focal point and alternative text.
-7. Preview the full scene and confirm the Begin control and navigation still work.
-8. Compare your result against `03_01_END.story`; note one deliberate difference and why it improves the brief.
-9. Save as `Lab-01-YourName.story` in this lab folder.
+7. Review the slides in grayscale and at delivery size to confirm hierarchy and meaning do not depend on colour alone.
+8. Preview the full scene and confirm the Begin control and navigation still work.
+9. Compare your result against `03_01_END.story`; note one deliberate difference and why it improves the brief.
+10. Save as `Lab-01-YourName.story` in this lab folder.
 
 #### Evidence
 
@@ -196,8 +222,8 @@ Retain the working .story file plus screenshots of Story View, one edited slide 
 
 - Both original BEGIN and END .story files remain unchanged.
 - All replaced media preserves aspect ratio and readable composition.
-- Theme choices are consistent and meet contrast requirements.
-- Navigation and preview behave as before.
+- Theme choices demonstrate contrast, repetition, alignment and balance.
+- Hierarchy remains clear in grayscale and navigation behaves as before.
 
 Self-contained lab folder: `labs/lab-01-replace-visuals-and-theme/`
 
@@ -213,13 +239,15 @@ Self-contained lab folder: `labs/lab-01-replace-visuals-and-theme/`
 
 1. Create `Lab-02-YourName.story` from `03_02_BEGIN.story` and open it locally.
 2. Review the learning promise and define the purpose of each of the three slides.
-3. Write concise learner-facing descriptions for campsite selection, campfire safety and essential toiletries.
-4. Import or replace the supplied supporting pictures through the Media Library so assets remain traceable.
-5. Use slide titles, hierarchy, alignment and spacing to make the intended reading order obvious.
-6. Add meaningful alternative text; remove decorative objects from the focus order where appropriate.
-7. Preview each slide at Fit and 100% zoom and test keyboard focus order.
-8. Compare against `03_02_END.story` and record how the storyboard maps to the final slide content.
-9. Save the completed working file and evidence screenshots.
+3. State the performance gap, required learner action and one measure that would show improvement.
+4. Write concise learner-facing descriptions for campsite selection, campfire safety and essential toiletries.
+5. Import or replace the supplied supporting pictures through the Media Library so assets remain traceable.
+6. Use slide titles, hierarchy, alignment and spacing to make the intended reading order obvious.
+7. Add meaningful alternative text; remove decorative objects from the focus order where appropriate.
+8. Preview each slide at Fit and 100% zoom and test keyboard focus order.
+9. Treat the three-slide build as a prototype: ask one reviewer to test the live navigation and record accept/adapt/reject decisions.
+10. Compare against `03_02_END.story` and record how the storyboard maps to the prototype content.
+11. Save the completed working file and evidence screenshots.
 
 #### Evidence
 
@@ -227,16 +255,16 @@ Retain the completed .story file, a three-screen storyboard table and accessibil
 
 #### Acceptance criteria
 
+- The performance gap, learner action and success measure are explicit.
 - Each slide has one clear purpose and concise copy.
-- The three descriptions and visuals match the intended module topics.
 - Focus order and alternative text support meaningful navigation.
-- The project previews without missing media.
+- Reviewer decisions and the resulting prototype revision are traceable.
 
 Self-contained lab folder: `labs/lab-02-populate-storyboard-content/`
 
 ## Topic 2 — Working with Assets
 
-Pictures · 360° media · video · audio · captions · accessibility · web content · screen recordings · text and layout
+Visual grammar · pictures · 360° media · video · audio · captions · accessible equivalents · web content · screen recordings · layout
 
 **Alignment:** LO2 · A3 · A5 · K2 · K5
 
@@ -251,6 +279,18 @@ Content type, length, style, interaction and channel are selected from audience 
 **Watch for:** Equating novelty with relevance or using a single format for every audience.
 
 **Quality evidence:** A requirements matrix links each preference to a design and delivery response.
+
+### Visual Design Grammar
+
+Colour, contrast, repetition, alignment and balance create hierarchy and unity so learners can recognise what matters and how screens relate.
+
+**Best used for:** Establishing a coherent theme, reusable component set and predictable reading path.
+
+**Key controls:** Purposeful palette; strong contrast; repeated typography and shapes; grid alignment; visual weight; consistent image style.
+
+**Watch for:** Near-matches that look accidental, too many competing styles, colour-only meaning or balancing decoration instead of instructional emphasis.
+
+**Quality evidence:** A grayscale and alignment review still reveals hierarchy, grouping and intended emphasis across representative screens.
 
 ### Pictures and Visual Hierarchy
 
@@ -288,6 +328,18 @@ Video shows change over time but requires deliberate pacing, controls, compressi
 
 **Quality evidence:** Playback works in the publish target and captions/transcript convey equivalent information.
 
+### Video and Screencast Production Workflow
+
+Clear audio, a controlled recording environment, a concise outline and a rehearsed screen path improve instructional video more than expensive equipment alone.
+
+**Best used for:** Talking-head introductions, software demonstrations and short worked examples.
+
+**Key controls:** External microphone; noise/echo check; lighting; stable camera; outline; recording window; prepared files; dry run; edit points.
+
+**Watch for:** Relying on camera quality while ignoring sound, improvising a long script, exposing notifications or searching for files during capture.
+
+**Quality evidence:** A test recording is intelligible, visually stable and follows a rehearsed path with no private or distracting content.
+
 ### Audio, Narration and Closed Captions
 
 Narration can guide attention while captions expose speech and meaningful sound to learners who cannot hear it.
@@ -299,6 +351,18 @@ Narration can guide attention while captions expose speech and meaningful sound 
 **Watch for:** Narration duplicating every on-screen word, inconsistent levels, timing drift or captions covering controls.
 
 **Quality evidence:** Audio is intelligible, synchronised and optional; captions are accurate and available in the player.
+
+### Accessible Media Equivalence
+
+Accessible media provides equivalent meaning through captions, transcripts, descriptive narration or an accessible job aid, while keeping playback under learner control.
+
+**Best used for:** Audio, talking-head video, demonstrations and software training used by learners with hearing, vision or mobility limitations.
+
+**Key controls:** Speaker identification; meaningful sound; visual-action description; transcript; step-based job aid; pause/seek; keyboard path; non-autoplay.
+
+**Watch for:** A verbatim transcript that omits visual actions, captions without meaningful sound, forced autoplay or requiring learners to self-identify before receiving an equivalent.
+
+**Quality evidence:** A learner can obtain the same instructional meaning and complete the task without depending on sight, hearing or precise pointer control.
 
 ### Accessibility: Focus, Names and Alternatives
 
@@ -438,13 +502,16 @@ Self-contained lab folder: `labs/lab-04-ai-assisted-visual-variation/`
 
 1. Create `Lab-05-YourName.story` from `05_01_BEGIN.story`.
 2. Review the narration script and mark pronunciation, pause and emphasis cues.
-3. Import or record narration on the intended slide and inspect the waveform.
-4. Trim silence, normalise perceived level and add short fades where needed.
-5. Import or create the supplied VTT captions and correct timing and wording.
-6. Confirm the player exposes captions and that keyboard users can operate the control.
-7. Align object timing to narration using the playhead or cue points where appropriate.
-8. Preview with audio on, audio muted and captions on; check that captions do not cover essential content.
-9. Compare with `05_01_END.story` and save the completed .story file and evidence.
+3. Prepare the recording space: silence notifications and noise sources, avoid echo, position the microphone and run a short level test.
+4. Rehearse the complete screen path with every application and source file open at the intended recording size.
+5. Import or record narration on the intended slide and inspect the waveform.
+6. Trim silence, normalise perceived level and add short fades where needed.
+7. Import or create the supplied VTT captions and correct timing, wording, speaker identification and meaningful sound cues.
+8. Provide a transcript or accessible step-based equivalent that also explains instructional actions shown only on screen.
+9. Confirm the player exposes captions and that keyboard users can operate the control.
+10. Align object timing to narration using the playhead or cue points where appropriate.
+11. Preview with audio on, audio muted and captions on; check that captions do not cover essential content.
+12. Compare with `05_01_END.story` and save the completed .story file and evidence.
 
 #### Evidence
 
@@ -452,9 +519,9 @@ Retain the completed .story file, caption-timing screenshot, waveform/timeline s
 
 #### Acceptance criteria
 
-- Narration is intelligible and synchronised.
-- Captions accurately represent speech and meaningful sound.
-- Captions are available through an operable control.
+- Narration is intelligible, synchronised and free of avoidable recording distractions.
+- Captions accurately represent speech, speakers and meaningful sound.
+- Playback is learner-controlled and an equivalent transcript/job aid covers visual actions.
 - On-screen text and narration avoid unnecessary duplication.
 
 Self-contained lab folder: `labs/lab-05-narration-and-captions/`
@@ -474,10 +541,11 @@ Self-contained lab folder: `labs/lab-05-narration-and-captions/`
 3. Import each narration track and apply a consistent naming convention in the timeline and Media Library.
 4. Attach the matching caption file and correct text/timing errors.
 5. Set playback and slide-advance behaviour so narration is neither cut off nor repeated unexpectedly.
-6. Expose caption and volume controls consistently in the player.
-7. Verify focus order, alternative text and accessible object visibility on every slide.
-8. Preview the complete scene using normal navigation, replay and revisit; log any resume differences.
-9. Compare with `05_02_END.story`, save the completed .story file and test matrix.
+6. Expose caption, volume, pause and seek controls consistently in the player; do not force autoplay.
+7. Attach or link an accessible transcript that includes relevant visual-action descriptions.
+8. Verify focus order, alternative text and accessible object visibility on every slide.
+9. Preview the complete scene using normal navigation, replay and revisit; log any resume differences.
+10. Compare with `05_02_END.story`, save the completed .story file and test matrix.
 
 #### Evidence
 
@@ -485,16 +553,16 @@ Retain the completed .story file, media map, scene-wide audio/caption test matri
 
 #### Acceptance criteria
 
-- All audio and captions map to the correct slides.
-- Naming and control behaviour are consistent.
+- All audio, captions and transcript equivalents map to the correct slides.
+- Naming and learner-controlled playback behaviour are consistent.
 - Revisit/replay does not create overlapping or missing narration.
-- Keyboard and caption checks pass on every slide.
+- Keyboard, focus and caption checks pass on every slide.
 
 Self-contained lab folder: `labs/lab-06-multi-slide-audio-accessibility/`
 
 ## Topic 3 — Interactivity
 
-Zoom regions · interactive objects · triggers · states · variables · timeline · branching · feedback · motion
+Meaningful choice · learner-controlled discovery · triggers · states · variables · timeline · branching · feedback · motion
 
 **Alignment:** LO3 · A6 · K6
 
@@ -521,6 +589,18 @@ Interactive objects expose actions through clear affordances, states, labels and
 **Watch for:** Invisible hotspots, tiny targets, colour-only state changes or controls that look decorative.
 
 **Quality evidence:** Pointer, keyboard and screen-reader users can identify, operate and understand every control.
+
+### Meaningful Choice, Consequence and Feedback
+
+An interaction earns its place when a realistic learner decision changes what happens next and feedback explains the consequence in context.
+
+**Best used for:** Scenario practice, judgement calls, objection handling and safe rehearsal of high-risk decisions.
+
+**Key controls:** Relevant prompt; plausible options; decision point; immediate consequence; explanatory feedback; retry/reflection; objective alignment.
+
+**Watch for:** Clicking for its own sake, trivia disconnected from work, cosmetic branches or feedback that only says correct/incorrect.
+
+**Quality evidence:** A reviewer can trace each interaction from objective to authentic decision, consequence and transferable feedback.
 
 ### Trigger Anatomy and Execution Order
 
@@ -606,6 +686,18 @@ Branches let learner choices reveal consequences, coaching and alternative route
 
 **Quality evidence:** Every route has a defined purpose, duration and outcome; the storyboard accounts for all nodes.
 
+### Learner-Controlled Pull and Progressive Disclosure
+
+Learners pull concise supporting content when they need it, while essential decisions and objectives remain visible and navigation stays understandable.
+
+**Best used for:** Optional examples, definitions, job aids, deeper explanations and non-linear exploration.
+
+**Key controls:** Need-to-know core; optional layer; label; menu cue; visited state; completion rule; skip path; return point.
+
+**Watch for:** Locking every path, hiding required information behind exploration, overwhelming one screen or using unlabeled hotspots.
+
+**Quality evidence:** The learner can locate needed support, skip known material and still understand what is required for completion.
+
 ### Interaction QA and Evidence
 
 Interaction quality is demonstrated with a test matrix covering behaviour, accessibility, content and device conditions.
@@ -629,9 +721,9 @@ Interaction quality is demonstrated with a test matrix covering behaviour, acces
 #### Detailed procedure
 
 1. Create `Lab-07-YourName.story` from `06_01_BEGIN.story`.
-2. Define the learning objective and write one decision-focused question with one defensible correct answer.
+2. Define the learning objective and write one realistic decision-focused question with one defensible correct answer.
 3. Insert the appropriate graded question type and configure prompt, choices and correct response.
-4. Write concise feedback that explains why each response is correct or incorrect.
+4. Write concise feedback that explains the contextual consequence of each response, not merely whether it is correct.
 5. Set attempts, score, required status and navigation to match the storyboard.
 6. Format response states with more than colour alone and verify focus/reading order.
 7. Preview correct, incorrect, incomplete, retry and revisit paths.
@@ -644,9 +736,9 @@ Retain the completed .story file, question specification, trigger/feedback scree
 
 #### Acceptance criteria
 
-- Question and feedback align to the taught criterion.
+- The realistic decision and consequence-based feedback align to the taught criterion.
 - Scoring and attempts behave as specified.
-- All response states are perceivable and keyboard operable.
+- All response states are perceivable and keyboard/touch operable.
 - Correct, incorrect, incomplete, retry and revisit tests pass.
 
 Self-contained lab folder: `labs/lab-07-graded-question-and-feedback/`
@@ -668,7 +760,7 @@ Self-contained lab folder: `labs/lab-07-graded-question-and-feedback/`
 5. Add or update the result slide; select the intended tracked questions and passing score.
 6. Configure submit, retry and review behaviour without exposing correct answers prematurely.
 7. Check focus order, response states and clear instructions for the multiple-response interaction.
-8. Preview pass, fail, retry, partial selection, resume and review paths.
+8. Preview pass, fail, retry, partial selection, resume and review paths; verify touch targets and spacing at a phone-sized player view.
 9. Compare with `06_02_END.story`, save the completed .story file and results test log.
 
 #### Evidence
@@ -677,16 +769,16 @@ Retain the completed .story file, question-to-criterion map, result settings scr
 
 #### Acceptance criteria
 
-- Both questions assess the mapped criteria.
+- Both questions assess the mapped criteria through meaningful learner choices.
 - The result slide tracks the correct items and score.
 - Retry and review behave as intended.
-- Keyboard, focus and instruction checks pass.
+- Keyboard, focus, touch-target and instruction checks pass.
 
 Self-contained lab folder: `labs/lab-08-multi-question-quiz-results/`
 
 ## Topic 4 — Presentation, Review and Distribution
 
-Themes · masters · player · accessibility · Review 360 · preview · LMS/LRS publishing · scheduling · governance
+Themes · masters · player · multi-device UX · accessibility · Review 360 · preview · LMS/LRS publishing · scheduling · governance
 
 **Alignment:** LO4 · A4 · A7 · K4
 
@@ -713,6 +805,18 @@ The player wraps course content with menu, controls, resources, seekbar, caption
 **Watch for:** Player controls conflicting with custom navigation, unrestricted seeking bypassing required content or hidden captions.
 
 **Quality evidence:** The player supports the storyboard, accessibility plan and completion rules on desktop and mobile.
+
+### Multi-Device UX and Real-Device Testing
+
+Multi-device design combines immediacy, clear affordances and touch-friendly interaction, then verifies the experience in the devices, orientations and contexts learners actually use.
+
+**Best used for:** Responsive-player courses, mobile performance support and mixed desktop/tablet/phone audiences.
+
+**Key controls:** Screen size; orientation; touch target; spacing; hover alternative; readable type; virtual keyboard; gesture cue; bandwidth; real-device matrix.
+
+**Watch for:** Shrinking desktop layouts, hiding critical content in hover states, tiny controls, long text entry or trusting a responsive preview as final proof.
+
+**Quality evidence:** Desktop, tablet and phone tests record readability, touch accuracy, orientation, media performance, keyboard behaviour and completion/resume results.
 
 ### Accessible Player and Focus Styling
 
@@ -825,11 +929,12 @@ Published learning is monitored, reviewed and retired using learner evidence, de
 3. Apply the project theme and accessible heading, reading order and alternative-text conventions.
 4. Check navigation into and out of the summary, including revisit behaviour.
 5. Preview the full scene and complete the interaction/accessibility test matrix.
-6. Prepare a Review 360 plan naming reviewers, review questions, owner, deadline and comment disposition.
-7. Select a distribution target and justify web, video, Review 360 or LMS/LRS against interaction and tracking needs.
-8. For LMS/LRS, specify the supported standard, completion trigger, passing rule and sandbox test; do not upload to a live LMS in this lab.
-9. Define delivery frequency, reminders, content owner, review date and update trigger.
-10. Compare with `07_02_END.story`, save the completed .story file and publish plan.
+6. Run a real-device matrix on desktop, tablet and phone in portrait/landscape where supported; record readability, touch accuracy, media, orientation and resume results.
+7. Prepare a Review 360 plan naming reviewers, review questions, owner, deadline and comment disposition.
+8. Select a distribution target and justify web, video, Review 360 or LMS/LRS against interaction and tracking needs.
+9. For LMS/LRS, specify the supported standard, completion trigger, passing rule and sandbox test; do not upload to a live LMS in this lab.
+10. Define delivery frequency, reminders, content owner, review date and update trigger.
+11. Compare with `07_02_END.story`, save the completed .story file and publish plan.
 
 #### Evidence
 
@@ -838,7 +943,7 @@ Retain the completed .story file, summary screenshot, QA matrix, Review 360 plan
 #### Acceptance criteria
 
 - The summary communicates the intended actions and next step.
-- Navigation and accessibility tests pass.
+- Navigation, accessibility and real-device tests pass.
 - The chosen channel supports required interaction and tracking.
 - The delivery and maintenance plan identifies cadence, owner and update trigger.
 
@@ -868,3 +973,9 @@ Use only assets and personal information you created or are permitted to use. Re
 - **Articulate Storyline 360 User Guide:** https://community.articulate.com/kb/user-guide-series/storyline-360-user-guide/1193854
 - **Articulate Storyline 360 Accessibility Maturity Plan:** https://www.articulate.com/about/accessibility/storyline-360-accessibility-maturity-plan/
 - **Articulate publishing guidance:** https://community.articulate.com/blog/articles/choosing-the-right-publishing-option-for-your-storyline-360-project/1131199
+- **Articulate ebook: E-Learning for Beginners:** reference/Articulate ebooks/E-LearningForBeginners_E-Book.pdf
+- **Articulate ebook: Getting Started with Articulate Storyline:** reference/Articulate ebooks/Getting_Started_with_Articulate_Storyline.pdf
+- **Articulate ebook: 5 Highly Effective Strategies for Creating Engaging E-Learning:** reference/Articulate ebooks/Articulate_5_Highly_Effective_Strategies_for_Creating_Engaging_E-Learning_2018.pdf
+- **Articulate ebook: The Secret to Create Great E-Learning Videos:** reference/Articulate ebooks/Articulate_The_Secret_to_Create_Great_E-Learning_Videos_v4.pdf
+- **Articulate ebook: 6 Best Practices for Designing Accessible E-Learning:** reference/Articulate ebooks/6_Best_Practices_for_Designing_Accessible_E-Learning.pdf
+- **Articulate ebook: The Definitive Guide to Multi-Device E-Learning:** reference/Articulate ebooks/The-Definitive-Guide-to-Multi-Device-E-Learning.pdf

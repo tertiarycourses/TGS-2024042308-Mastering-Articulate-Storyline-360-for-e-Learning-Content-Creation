@@ -1,7 +1,7 @@
 # Lab 06 — Build a Multi-Slide Audio and Caption System
 
 **Course:** Mastering Articulate Storyline 360 for e-Learning Content Creation (`TGS-2024042308`)
-**Version:** v9 · 21 August 2026
+**Version:** v10 · 22 August 2026
 
 ## Scenario
 
@@ -23,10 +23,11 @@ Implement multiple audio/caption tracks consistently and validate timing, focus 
 3. Import each narration track and apply a consistent naming convention in the timeline and Media Library.
 4. Attach the matching caption file and correct text/timing errors.
 5. Set playback and slide-advance behaviour so narration is neither cut off nor repeated unexpectedly.
-6. Expose caption and volume controls consistently in the player.
-7. Verify focus order, alternative text and accessible object visibility on every slide.
-8. Preview the complete scene using normal navigation, replay and revisit; log any resume differences.
-9. Compare with `05_02_END.story`, save the completed .story file and test matrix.
+6. Expose caption, volume, pause and seek controls consistently in the player; do not force autoplay.
+7. Attach or link an accessible transcript that includes relevant visual-action descriptions.
+8. Verify focus order, alternative text and accessible object visibility on every slide.
+9. Preview the complete scene using normal navigation, replay and revisit; log any resume differences.
+10. Compare with `05_02_END.story`, save the completed .story file and test matrix.
 
 ## Evidence to retain
 
@@ -34,10 +35,10 @@ Retain the completed .story file, media map, scene-wide audio/caption test matri
 
 ## Acceptance criteria
 
-- [ ] All audio and captions map to the correct slides.
-- [ ] Naming and control behaviour are consistent.
+- [ ] All audio, captions and transcript equivalents map to the correct slides.
+- [ ] Naming and learner-controlled playback behaviour are consistent.
 - [ ] Revisit/replay does not create overlapping or missing narration.
-- [ ] Keyboard and caption checks pass on every slide.
+- [ ] Keyboard, focus and caption checks pass on every slide.
 
 ## Reflection prompts
 

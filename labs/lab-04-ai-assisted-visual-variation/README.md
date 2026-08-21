@@ -1,7 +1,7 @@
 # Lab 04 — Create and Govern an AI-Assisted Visual Variation
 
 **Course:** Mastering Articulate Storyline 360 for e-Learning Content Creation (`TGS-2024042308`)
-**Version:** v9 · 21 August 2026
+**Version:** v10 · 22 August 2026
 
 ## Scenario
 

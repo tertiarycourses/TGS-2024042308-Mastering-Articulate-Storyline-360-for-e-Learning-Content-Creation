@@ -1,7 +1,7 @@
 # Lab 02 — Populate the Storyboard with Course Content
 
 **Course:** Mastering Articulate Storyline 360 for e-Learning Content Creation (`TGS-2024042308`)
-**Version:** v9 · 21 August 2026
+**Version:** v10 · 22 August 2026
 
 ## Scenario
 
@@ -20,13 +20,15 @@ Turn a skeletal template into a storyboard-aligned three-slide course overview u
 
 1. Create `Lab-02-YourName.story` from `03_02_BEGIN.story` and open it locally.
 2. Review the learning promise and define the purpose of each of the three slides.
-3. Write concise learner-facing descriptions for campsite selection, campfire safety and essential toiletries.
-4. Import or replace the supplied supporting pictures through the Media Library so assets remain traceable.
-5. Use slide titles, hierarchy, alignment and spacing to make the intended reading order obvious.
-6. Add meaningful alternative text; remove decorative objects from the focus order where appropriate.
-7. Preview each slide at Fit and 100% zoom and test keyboard focus order.
-8. Compare against `03_02_END.story` and record how the storyboard maps to the final slide content.
-9. Save the completed working file and evidence screenshots.
+3. State the performance gap, required learner action and one measure that would show improvement.
+4. Write concise learner-facing descriptions for campsite selection, campfire safety and essential toiletries.
+5. Import or replace the supplied supporting pictures through the Media Library so assets remain traceable.
+6. Use slide titles, hierarchy, alignment and spacing to make the intended reading order obvious.
+7. Add meaningful alternative text; remove decorative objects from the focus order where appropriate.
+8. Preview each slide at Fit and 100% zoom and test keyboard focus order.
+9. Treat the three-slide build as a prototype: ask one reviewer to test the live navigation and record accept/adapt/reject decisions.
+10. Compare against `03_02_END.story` and record how the storyboard maps to the prototype content.
+11. Save the completed working file and evidence screenshots.
 
 ## Evidence to retain
 
@@ -34,10 +36,10 @@ Retain the completed .story file, a three-screen storyboard table and accessibil
 
 ## Acceptance criteria
 
+- [ ] The performance gap, learner action and success measure are explicit.
 - [ ] Each slide has one clear purpose and concise copy.
-- [ ] The three descriptions and visuals match the intended module topics.
 - [ ] Focus order and alternative text support meaningful navigation.
-- [ ] The project previews without missing media.
+- [ ] Reviewer decisions and the resulting prototype revision are traceable.
 
 ## Reflection prompts
 

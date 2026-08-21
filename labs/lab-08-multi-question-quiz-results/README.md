@@ -1,7 +1,7 @@
 # Lab 08 — Build a Multi-Question Quiz and Result Logic
 
 **Course:** Mastering Articulate Storyline 360 for e-Learning Content Creation (`TGS-2024042308`)
-**Version:** v9 · 21 August 2026
+**Version:** v10 · 22 August 2026
 
 ## Scenario
 
@@ -25,7 +25,7 @@ Create a multi-question quiz with single- and multiple-response items, feedback,
 5. Add or update the result slide; select the intended tracked questions and passing score.
 6. Configure submit, retry and review behaviour without exposing correct answers prematurely.
 7. Check focus order, response states and clear instructions for the multiple-response interaction.
-8. Preview pass, fail, retry, partial selection, resume and review paths.
+8. Preview pass, fail, retry, partial selection, resume and review paths; verify touch targets and spacing at a phone-sized player view.
 9. Compare with `06_02_END.story`, save the completed .story file and results test log.
 
 ## Evidence to retain
@@ -34,10 +34,10 @@ Retain the completed .story file, question-to-criterion map, result settings scr
 
 ## Acceptance criteria
 
-- [ ] Both questions assess the mapped criteria.
+- [ ] Both questions assess the mapped criteria through meaningful learner choices.
 - [ ] The result slide tracks the correct items and score.
 - [ ] Retry and review behave as intended.
-- [ ] Keyboard, focus and instruction checks pass.
+- [ ] Keyboard, focus, touch-target and instruction checks pass.
 
 ## Reflection prompts
 

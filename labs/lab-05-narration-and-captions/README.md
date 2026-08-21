@@ -1,7 +1,7 @@
 # Lab 05 — Add Narration and Closed Captions
 
 **Course:** Mastering Articulate Storyline 360 for e-Learning Content Creation (`TGS-2024042308`)
-**Version:** v9 · 21 August 2026
+**Version:** v10 · 22 August 2026
 
 ## Scenario
 
@@ -20,13 +20,16 @@ Add and synchronise narration, captions and accessible playback controls without
 
 1. Create `Lab-05-YourName.story` from `05_01_BEGIN.story`.
 2. Review the narration script and mark pronunciation, pause and emphasis cues.
-3. Import or record narration on the intended slide and inspect the waveform.
-4. Trim silence, normalise perceived level and add short fades where needed.
-5. Import or create the supplied VTT captions and correct timing and wording.
-6. Confirm the player exposes captions and that keyboard users can operate the control.
-7. Align object timing to narration using the playhead or cue points where appropriate.
-8. Preview with audio on, audio muted and captions on; check that captions do not cover essential content.
-9. Compare with `05_01_END.story` and save the completed .story file and evidence.
+3. Prepare the recording space: silence notifications and noise sources, avoid echo, position the microphone and run a short level test.
+4. Rehearse the complete screen path with every application and source file open at the intended recording size.
+5. Import or record narration on the intended slide and inspect the waveform.
+6. Trim silence, normalise perceived level and add short fades where needed.
+7. Import or create the supplied VTT captions and correct timing, wording, speaker identification and meaningful sound cues.
+8. Provide a transcript or accessible step-based equivalent that also explains instructional actions shown only on screen.
+9. Confirm the player exposes captions and that keyboard users can operate the control.
+10. Align object timing to narration using the playhead or cue points where appropriate.
+11. Preview with audio on, audio muted and captions on; check that captions do not cover essential content.
+12. Compare with `05_01_END.story` and save the completed .story file and evidence.
 
 ## Evidence to retain
 
@@ -34,9 +37,9 @@ Retain the completed .story file, caption-timing screenshot, waveform/timeline s
 
 ## Acceptance criteria
 
-- [ ] Narration is intelligible and synchronised.
-- [ ] Captions accurately represent speech and meaningful sound.
-- [ ] Captions are available through an operable control.
+- [ ] Narration is intelligible, synchronised and free of avoidable recording distractions.
+- [ ] Captions accurately represent speech, speakers and meaningful sound.
+- [ ] Playback is learner-controlled and an equivalent transcript/job aid covers visual actions.
 - [ ] On-screen text and narration avoid unnecessary duplication.
 
 ## Reflection prompts
