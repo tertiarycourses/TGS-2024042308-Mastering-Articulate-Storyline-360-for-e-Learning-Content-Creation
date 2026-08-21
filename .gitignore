@@ -1,0 +1,13 @@
+.DS_Store
+.env
+.claude/
+assessment/
+Trainer Answer Keys/
+reference/
+tmp/
+courseware/build/
+courseware/assets/
+courseware/archive/
+**/~$*
+**/.~lock.*
+*.tmp
