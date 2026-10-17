@@ -1,0 +1,17 @@
+screen_id,scene,purpose,narration,asset,interaction,branch,accessibility,owner,status
+WSA-001,Welcome,Set annual refresher purpose,Start safe and go home safe,hero,Start button,HLL-VO-01,Heading and focus order,Learner,Draft
+HLL-VO-01,Learn,Start safe,Notice act report,scene-01,Replay and Stop,HLL-VO-02,Audio captions transcript,Learner,Draft
+HLL-VO-02,Learn,Pause before task,What changed,scene-02,Pause and think,HLL-VO-03,Audio captions transcript,Learner,Draft
+HLL-VO-03,Learn,Keep routes clear,Protect the exit,scene-03,Pause and think,HLL-VO-04,Audio captions transcript,Learner,Draft
+HLL-VO-04,Learn,Control spills and stacks,Isolate do not pull,scene-04,Replay and Stop,HLL-VO-05,Audio captions transcript,Learner,Draft
+HLL-VO-05,Learn,Separate people and vehicles,Use walkway stay visible,scene-05,Pause and think,HLL-VO-06,Audio captions transcript,Learner,Draft
+HLL-VO-06,Learn,Use PPE and equipment correctly,Check PPE never bypass guards,scene-06,Replay and Stop,HLL-VO-07,Audio captions transcript,Learner,Draft
+HLL-VO-07,Learn,Report and follow up,Report facts name owner,scene-07,Pause and think,HLL-VO-08,Audio captions transcript,Learner,Draft
+HLL-VO-08,Learn,Five-second check,Stop fix ask,scene-08,Continue,WSA-101,Audio captions transcript,Learner,Draft
+WSA-101,Learn,Identify seven hazards,Find seven hazards,warehouse,Hotspots and numbered buttons,WSA-205,Keyboard equivalent,Learner,Draft
+WSA-205,Learn,Set risk level,Choose level and zone,risk controls,Slider dial and buttons,WSA-201,Keyboard equivalent,Learner,Draft
+WSA-201,Practise,Report incident,Complete fictional form,incident form,Try simulation,WSA-210,Captions and transcript,Learner,Draft
+WSA-210,Practise,Choose spill response,Submit safe action,spill decision,Three choices and feedback,WSA-220,Keyboard and focus order,Learner,Draft
+WSA-220,Practise,Reconverge after choice,Continue to quiz,reconvergence,Continue button,WSA-301,Heading and focus order,Learner,Draft
+WSA-301,Quiz,Verify decisions,Answer five questions,question bank,Safety Bank draw,Results,Accessible response states,Learner,Draft
+WSA-401,Resources,Support transfer,Use job aids,resources,Links,Menu,Descriptive link text,Learner,Draft

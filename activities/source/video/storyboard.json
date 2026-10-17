@@ -1,0 +1,130 @@
+{
+  "title": "HarbourLink Logistics Annual WSH Refresher",
+  "company": "HarbourLink Logistics (fictional)",
+  "audience": "Frontline warehouse operators, including learners with low reading confidence",
+  "duration_target": "8\u201310 minutes for interactive module",
+  "delivery": {
+    "voiceover": true,
+    "captions": true,
+    "controls": [
+      "Replay",
+      "Stop"
+    ],
+    "linear_video": true,
+    "answer_tracking": false
+  },
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "Start Safe",
+      "voiceover": "Welcome back to HarbourLink Logistics. This annual refresher takes only a few minutes. Its purpose is simple: notice hazards early, choose a safe action, and report what needs fixing. You know the workplace. Today, look at it with fresh eyes. Small changes in a busy shift can create a new risk. If anything in this example differs from your site procedure, stop and follow your approved workplace instruction.",
+      "onscreen_labels": [
+        "Start safe",
+        "Notice \u2022 Act \u2022 Report"
+      ],
+      "scene_visual": "Warehouse team beginning shift; clear route and supervisor briefing",
+      "hazard_ids": []
+    },
+    {
+      "id": "S02",
+      "title": "Pause Before the Task",
+      "voiceover": "Before you lift, drive, stack, clean, or enter a work area, pause. Look at the route, the load, the equipment, and the people nearby. Ask: what has changed since my last shift? A clear route can become blocked. A dry floor can become slippery. A stable stack can move. This quick pause helps you act before someone gets hurt.\n\nPause and think: What changed in your work area today?",
+      "onscreen_labels": [
+        "Pause first",
+        "What changed?"
+      ],
+      "scene_visual": "Operator scans route, load, equipment, and nearby people",
+      "hazard_ids": [
+        "route",
+        "load",
+        "equipment",
+        "people"
+      ],
+      "pause_question": "What changed in your work area today?"
+    },
+    {
+      "id": "S03",
+      "title": "Clear Routes",
+      "voiceover": "Walkways, forklift routes, and emergency exits must stay clear. Never leave cartons, pallets, cables, or equipment where people travel. Keep fire doors and exit signs visible. If you find an obstruction, protect the area and arrange removal using your site process. Do not step around it and assume the next person will notice.\n\nPause and think: Which route must stay clear during your next task?",
+      "onscreen_labels": [
+        "Keep routes clear",
+        "Protect the exit"
+      ],
+      "scene_visual": "Split view: clear marked route versus blocked exit",
+      "hazard_ids": [
+        "blocked-exit",
+        "trailing-cable"
+      ]
+    },
+    {
+      "id": "S04",
+      "title": "Spills and Stacks",
+      "voiceover": "A spill needs immediate control. Warn others, isolate the area, and use the correct spill procedure. Do not walk through an unknown liquid. Check stacked goods before working nearby. Leaning, damaged, or overloaded stacks need trained help. Never pull one item from an unstable stack. Stop, secure the area, and report it.",
+      "onscreen_labels": [
+        "Isolate spills",
+        "Do not pull"
+      ],
+      "scene_visual": "Spill barrier and leaning pallet stack with safe exclusion zone",
+      "hazard_ids": [
+        "spill",
+        "unstable-stack"
+      ]
+    },
+    {
+      "id": "S05",
+      "title": "People and Vehicles",
+      "voiceover": "Forklifts and pedestrians need clear separation. Use marked walkways and crossing points. Make eye contact with the operator where your procedure requires it. Never enter a blind spot or walk under a raised load. Operators must follow speed limits, sound warnings where required, and stop when the route is not clear.\n\nPause and think: Where is the nearest blind corner on your route?",
+      "onscreen_labels": [
+        "Use the walkway",
+        "Stay visible"
+      ],
+      "scene_visual": "Forklift route with pedestrian crossing and blind-corner marker",
+      "hazard_ids": [
+        "forklift-route"
+      ],
+      "pause_question": "Where is the nearest blind corner?"
+    },
+    {
+      "id": "S06",
+      "title": "PPE and Equipment",
+      "voiceover": "Wear the PPE required for the task and check it before use. Replace damaged PPE. Use tools, ladders, guards, and controls only as trained. Do not bypass a guard to save time. If equipment behaves differently, stop it safely, label or isolate it as required, and tell the responsible person.",
+      "onscreen_labels": [
+        "Check your PPE",
+        "Never bypass guards"
+      ],
+      "scene_visual": "Operator checks PPE and isolates faulty equipment",
+      "hazard_ids": [
+        "missing-ppe",
+        "faulty-equipment"
+      ]
+    },
+    {
+      "id": "S07",
+      "title": "Report and Follow Up",
+      "voiceover": "Report hazards, near misses, injuries, and damaged equipment promptly. Give clear facts: the location, the hazard, the immediate control, and who needs to follow up. Do not include unnecessary personal information. A report is useful only when someone owns the action and checks that the risk is controlled.\n\nPause and think: Who receives a hazard report on your shift?",
+      "onscreen_labels": [
+        "Report facts",
+        "Name an owner"
+      ],
+      "scene_visual": "Simple incident report with location, control, owner, status",
+      "hazard_ids": [
+        "reporting"
+      ],
+      "pause_question": "Who receives a report on your shift?"
+    },
+    {
+      "id": "S08",
+      "title": "Five-Second Check",
+      "voiceover": "Before you begin, use the five-second check: route clear, load stable, equipment safe, PPE ready, and people protected. If one answer is no, stop and fix it or ask for help. You are not expected to take an unsafe shortcut. Thank you for helping every HarbourLink colleague finish the shift safely. Continue to the hazard activity and the five-question practice quiz. The practice pass mark is eighty percent.",
+      "onscreen_labels": [
+        "Five-second check",
+        "Stop \u2022 Fix \u2022 Ask"
+      ],
+      "scene_visual": "Five large picture-first check icons, then hazard activity and practice quiz",
+      "hazard_ids": []
+    }
+  ],
+  "linear_video_duration_seconds": 201.675,
+  "voiceover_source": "../narration/annual-wsh-script.md",
+  "synthetic_voice": "Samantha macOS text-to-speech"
+}

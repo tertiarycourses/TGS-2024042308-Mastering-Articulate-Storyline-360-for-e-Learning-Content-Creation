@@ -1,5 +1,8 @@
 .DS_Store
 .env
+.env.*
+!.env.example
+!.env.sample
 .claude/
 assessment/
 Trainer Answer Keys/
@@ -8,6 +11,15 @@ tmp/
 courseware/build/
 courseware/assets/
 courseware/archive/
+courseware/FG-*
+courseware/AP-*
+courseware/Assessment Plan-*
+__pycache__/
+*.pyc
+*.pem
+*.key
+node_modules/
+.venv/
 **/~$*
 **/.~lock.*
 *.tmp

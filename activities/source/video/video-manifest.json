@@ -1,0 +1,16 @@
+{
+  "file": "HarbourLink-Annual-WSH-Refresher.mp4",
+  "duration_seconds": 201.728,
+  "width": 1920,
+  "height": 1080,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "caption_codec": "mov_text",
+  "caption_cues": 59,
+  "size_bytes": 32175055,
+  "sha256": "39f3dbbd9f74b25be2fabbcf296a1761edcc38737a74df364c6d91c883fdb15d",
+  "synthetic_narration": true,
+  "interactive": false,
+  "pass": true,
+  "errors": []
+}
